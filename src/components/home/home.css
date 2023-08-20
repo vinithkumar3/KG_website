@@ -1,0 +1,35 @@
+/* .intro{
+    max-width: 540px;
+    text-align: center;
+    z-index: 1;
+}
+.home___img{
+    width:100px;
+    margin-bottom: 1.5rem;
+} */
+
+.home___container {
+    width:100%;
+}
+
+.home___item {
+    text-align: center;
+    /* padding: 0 1.25rem 1.25rem; */
+}
+/* .thumb {
+    height:50rem;
+    width: 50rem;
+    margin: 0 auto;
+} */
+@media screen and (max-width:1024px) {
+    .home___container{
+        width:80%;
+        margin-top: 3rem;
+    }
+    /* .thumb {
+        height:max-content;
+        width:max-content;
+        margin: 0 auto;
+    } */
+    
+}

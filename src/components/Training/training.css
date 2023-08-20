@@ -1,0 +1,98 @@
+.trainsch{
+    display :flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+
+}
+.train{
+    color:rgb(199, 17, 17);
+    font-weight: bold;
+   
+    color:rgb(199, 17, 17);
+      align-items: center;
+  
+}
+.trainbg{
+ 
+    width: 100%;
+
+    margin-top: 30px;
+   
+    
+}
+.coachTitle{
+color:black;
+font-size: medium;
+
+}
+.coachTitle, .memberTitle{
+    color:black;
+    font-size: medium;
+    font-weight: 700;
+}
+.red{
+    color:#007bff;
+    font-weight: 600;
+}
+.memberDay{
+    color:rgb(250, 15, 219);
+    font-weight: 800;
+}
+.timeshift{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.shift{
+    color:black;
+    font-weight: 600;
+}
+.customList {
+    list-style-type: disc;
+    padding:20px;
+  }
+  li{
+    color:#007bff;
+    font-weight: 600;
+  }
+  .book{
+    border-radius: 10px;
+    background-color: rgb(199, 17, 17);
+    color:white;
+    width: 30%;
+    margin-left: 35%;
+    border-color: black;
+    border-width: 10px;
+    font-weight: 800;
+
+  }
+  
+  @media screen and (max-width:1024px) {
+    .trainsch{
+        display :flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    
+    }
+    .train{
+        color:rgb(199, 17, 17);
+        font-weight:600;
+      
+    }
+    .timeshift{
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+    } 
+    .customList {
+        list-style-type: none;
+        padding:none;
+      }
+      .book{
+        margin-left:34%;
+      }
+  }

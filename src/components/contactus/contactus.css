@@ -1,0 +1,40 @@
+.section___title{
+    color:rgb(199, 17, 17);
+    align-items: center;
+}
+.address{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: 50px;
+}
+.add_title{
+    color:rgb(4, 20, 236);
+    font-weight: bold;
+    font-size: larger;
+}
+.add_line{
+    color:black;
+    font-weight: 700;
+    font-size: larger;
+}
+.ph{
+    color:rgb(133, 8, 250);
+    font-weight:bold;
+    font-size: larger;
+}
+.phno{
+    color:black;
+    font-weight: 700;
+    font-size: larger;
+}
+.location{
+    width:"600"; height:"450" ;
+    border:"0";
+}
+
+@media screen and (max-width:1024px) {
+    .address{
+        display: flex;
+        flex-direction:column;}
+}
