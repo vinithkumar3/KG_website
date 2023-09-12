@@ -44,7 +44,7 @@ Contributions are welcome! If you'd like to improve this project or add new feat
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
+![Sample Image](main responsi.PNG)
 
 **Website developed by VINITH KUMAR G**
 
