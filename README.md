@@ -48,5 +48,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Website developed by VINITH KUMAR G**
 
-[LinkedIn]-https://www.linkedin.com/in/vinith-kumar-g-b8a649149
-[GitHub](#insert-github-profile)
+[LinkedIn]-(https://www.linkedin.com/in/vinith-kumar-g-b8a649149)
+[GitHub]((https://github.com/vinithkumar3)https://github.com/vinithkumar3)
