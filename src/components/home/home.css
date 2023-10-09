@@ -9,27 +9,29 @@
 } */
 
 .home___container {
-    width:100%;
+    width: 100%;
 }
 
 .home___item {
     text-align: center;
     /* padding: 0 1.25rem 1.25rem; */
 }
+
 /* .thumb {
     height:50rem;
     width: 50rem;
     margin: 0 auto;
 } */
 @media screen and (max-width:1024px) {
-    .home___container{
-        width:80%;
+    .home___container {
+        width: 80%;
         margin-top: 3rem;
     }
+
     /* .thumb {
         height:max-content;
         width:max-content;
         margin: 0 auto;
     } */
-    
+
 }
