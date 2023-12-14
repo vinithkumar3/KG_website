@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React from "react";
+=======
+import React, { useState } from "react";
+>>>>>>> c2535c3d8f0fea617ba3724471d71770303bb050
 import "./sidebar.css";
 
 const Sidebar = () => {
@@ -82,14 +86,22 @@ const Sidebar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
+<<<<<<< HEAD
             <a class="nav-link  mb-0 h5" aria-current="page" href="">
+=======
+            <a class="nav-link  mb-0 h5" aria-current="page" href="#">
+>>>>>>> c2535c3d8f0fea617ba3724471d71770303bb050
               Home
             </a>
             <a class="nav-link  mb-0 h5" href="#">
               Traning & Schedule
             </a>
             <a class="nav-link  mb-0 h5" href="#">
+<<<<<<< HEAD
               Gallery 
+=======
+              Gallery
+>>>>>>> c2535c3d8f0fea617ba3724471d71770303bb050
             </a>
             <a class="nav-link  mb-0 h5" href="#">
               Reviews
