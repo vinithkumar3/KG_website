@@ -1,10 +1,12 @@
 .testimonial___container {
     max-width: 700px;
 }
-.section___title{
-      color:rgb(199, 17, 17);
-      align-items: center;
+
+.section___title {
+    color: rgb(199, 17, 17);
+    align-items: center;
 }
+
 .testimonial___item {
     text-align: center;
     padding: 0 1.25rem 1.25rem;
@@ -66,11 +68,12 @@
     height: 0.375 !important;
     border-radius: 0.5rem !important;
 }
-.reviewbutton{
-    margin-top:10px;
+
+.reviewbutton {
+    margin-top: 10px;
     border-radius: 10px;
     background-color: aqua;
-    color:black;
+    color: black;
     border-color: black;
     border-width: 10px;
     font-weight: 800;
@@ -81,8 +84,8 @@
 
 
 @media screen and (max-width:1024px) {
-    .reviewbutton{
-width: 50%;
-    margin-left: 23%;
+    .reviewbutton {
+        width: 50%;
+        margin-left: 23%;
     }
 }

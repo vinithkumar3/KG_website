@@ -1,4 +1,4 @@
-.footer{
+.footer {
     background-color: #f2f2f2;
     width: 100%;
     display: flex;
@@ -7,22 +7,27 @@
     justify-content: center;
     height: 5rem;
 
-    
+
 }
-.icon-social-facebook ,
+
+.icon-social-facebook,
 .icon-social-instagram,
-.icon-location-pin{
-    width:3rem;
-    padding:10px;
+.icon-location-pin {
+    width: 3rem;
+    padding: 10px;
 }
-.copy{
-display: flex;
-align-items: flex-end;
-}.design{
-    font-weight: 300;
-    color:black ;
+
+.copy {
+    display: flex;
+    align-items: flex-end;
 }
-.name{
-    color:red;
+
+.design {
     font-weight: 300;
+    color: black;
+}
+
+.name {
+    color: red;
+    font-weight: 600;
 }
