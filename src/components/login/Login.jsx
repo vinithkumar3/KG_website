@@ -1,19 +1,16 @@
 import { useNavigate } from "react-router-dom";
 import "./login.css";
 import axios from "axios";
-<<<<<<< HEAD
 import { useState } from "react";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
 
 
-=======
 import { useEffect, useState } from "react";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import Gallery from "../gallery/Gallery";
 
->>>>>>> c2535c3d8f0fea617ba3724471d71770303bb050
 const Login = () => {
   const navigate = useNavigate();
   const [userName, setUserName] = useState("");
