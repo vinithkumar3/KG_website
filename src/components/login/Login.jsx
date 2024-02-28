@@ -1,6 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import "./login.css";
 import axios from "axios";
+import { useState } from "react";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
+
+
 import { useEffect, useState } from "react";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
@@ -23,12 +28,16 @@ const Login = () => {
         alert("Not a valid credentials");
       });
   };
+<<<<<<< HEAD
+
+=======
   function yesAction() {
     console.log("yes");
   }
   function noAction() {
     console.log("no");
   }
+>>>>>>> c2535c3d8f0fea617ba3724471d71770303bb050
   return (
     <div>
       <Header />
@@ -49,7 +58,11 @@ const Login = () => {
               onChange={(e) => setUserName(e.target.value)}
               placeholder="Email Address"
             />
+<<<<<<< HEAD
+            <img class="icon-user" alt="" />
+=======
             <img class="icon-user" />
+>>>>>>> c2535c3d8f0fea617ba3724471d71770303bb050
             <br />
           </div>
           <div class="in">
@@ -62,7 +75,11 @@ const Login = () => {
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Password"
             />
+<<<<<<< HEAD
+            <img class="icon-lock" alt="" />
+=======
             <img class="icon-lock" />
+>>>>>>> c2535c3d8f0fea617ba3724471d71770303bb050
           </div>
           <br />
           <div class="agree">

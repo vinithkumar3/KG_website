@@ -8,7 +8,7 @@ import Img1 from "../../assets/ad-1.jpg";
 const Gallery = () => {
   return (
     <div id="gallery" class="container">
-      <p class="section___title ">Gallery </p>
+      <p class="section___title ">Gallery </p>   
       <div class="ad  ">
         <video autoPlay controls class="video">
           <source src={videoSource} type="video/mp4" />
